@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../cosplay/gun/gun"
+		},
+		{
+			"name": "monster",
+			"path": "../cosplay/monster/monster"
+		},
+		{
+			"name": "elizaCosplay2022",
+			"path": "../elizaCosplay2022"
+		},
+		{
+			"name": "sword",
+			"path": "."
+		},
+		{
+			"name": "masterButton",
+			"path": "../../../../../Documents/PlatformIO/Projects/masterButton"
+		}
+	],
+	"settings": {}
+}
