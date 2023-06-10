@@ -54,18 +54,10 @@ void ledStrip(int status)
   for (int i = 0; i < PixelCount1; i++) {
     leds1[i] = colour;  // Set color of pixel in strip 1
     FastLED.show();
-    // delay(50);
-    leds1[i] = colour; // Clear the pixel in strip 1
-    FastLED.show();
+
   }
 
-    // for (int i = 0; i <= PixelCount; i++) {
-    //   RgbColor pixel(red,0, 0);
-    //   strip.SetPixelColor(i, pixel);
-    //   strip.Show();
-    //   //delay(5); 
-    // }
-    
+
 
 }
 
@@ -79,9 +71,7 @@ void bulletHoleLed(int status){
   for (int i = 0; i < PixelCount1; i++) {
     leds2[i] = colour;  // Set color of pixel in strip 1
     FastLED.show();
-    // delay(50);
-    leds2[i] = colour; // Clear the pixel in strip 1
-    FastLED.show();
+
   }
 }
 
@@ -117,7 +107,7 @@ void bulletHole(){
   digitalWrite(BULLET_HOLE_TRIG, HIGH); // sets the digital pin 13 on
   delay(100);            // waits for a second
   digitalWrite(BULLET_HOLE_TRIG, LOW);  // sets the digital pin 13 off
-  delay(200);  
+  delay(800);  
   bulletHoleLed(1);
   delay(500); 
   bulletHoleLed(0);  
